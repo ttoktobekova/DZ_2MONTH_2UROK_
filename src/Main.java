@@ -26,7 +26,7 @@ public class Main {
             case HISTORY:
                 return new Histori("История Кыргызкого народа", 2023, "История", 2);
             default:
-                throw new IllegalArgumentException("Invalid Janr");
+                throw new IllegalArgumentException("НЕПРАВИЛЬНЫЙ ЖАНР");
         }
     }
 }
